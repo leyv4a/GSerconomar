@@ -1,27 +1,59 @@
-
-
+import React, {useEffect, useState} from 'react';
 
 function Header() {
 
- 
+  const [isMobile, setIsMobile] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  const handleResize = () => {
+    const mobileWidth = 768;
+    setIsMobile(window.innerWidth < mobileWidth);
+  };
+
+  const handleScroll = () => {
+    const scrollThreshold = 100; // Puedes ajustar esto según tus necesidades
+    setIsScrolled(window.scrollY > scrollThreshold);
+  };
+
+  // Agrega un event listener para manejar cambios de tamaño de ventana
+  useEffect(() => {
+    handleResize()
+
+    window.addEventListener('load', handleResize);
+
+    // Agrega un event listener para manejar el scroll cuando no es mobile
+    if (!isMobile) {
+      window.addEventListener('scroll', handleScroll);
+    }
+
+    // Limpia los event listeners cuando el componente se desmonta
+    return () => {
+      window.removeEventListener('load', handleResize);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+
+
   return (
    <>
-  <nav class="navbar navbar-expand-lg sticky-top container">
-  <div class="container-fluid">
-    <a class="navbar-brand d-block d-sm-block d-md-none d-lg-none d-xl-none" href="#">SerconomarLogo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <nav className={`navbar navbar-expand-lg sticky-top ${isMobile ? ' bg-light' : ''} ${isScrolled ? ' bg-light' : ''}`} >
+  <div className="container py-1">
+    <a className="navbar-brand d-block d-sm-block d-md-none d-lg-none d-xl-none" href="#"><img style={{width: '126px'}} src='/LogoSerChico.png'></img></a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav me-auto mb-2 mb-lg-0 mt-xs-5 fw-semibold">
-         <a class="nav-link active text-center" href="#">Productos</a>
-        <a class="nav-link active text-center" href="#">Nosotros</a>
-        <a class="nav-link active text-center" href="#">Procesos</a>
-        <a class="nav-link active text-center" href="#">Filosofia</a>
-        <a class="nav-link active text-center" href="#">Nosotros</a>
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div className="navbar-nav me-auto mb-2 mb-lg-0 mt-xs-5 fw-semibold">
+         <a className="nav-link active text-center" href="#">Productos</a>
+        <a className="nav-link active text-center" href="#">Nosotros</a>
+        <a className="nav-link active text-center" href="#">Procesos</a>
+        <a className="nav-link active text-center" href="#">Filosofia</a>
+        <a className="nav-link active text-center" href="#">Nosotros</a>
       </div>
       <span className="d-flex justify-content-center">
-        <a class="btn btn-primary " href="#">Bolsa de trabajo</a>
+        <a className="btn btn-primary " href="#">Bolsa de trabajo</a>
       </span>
     </div>
   </div>
