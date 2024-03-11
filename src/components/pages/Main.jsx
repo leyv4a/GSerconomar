@@ -77,7 +77,6 @@ function Main() {
               <label >Telefono</label>
             </div>
 
-            {/* <input type="tel" className="form-control" placeholder='Telefono' aria-label="Phone number input"/> */}
           </div>
 
           <div className="form-floating mb-3">

@@ -3,6 +3,8 @@ import Main from './components/pages/Main.jsx'
 import Certificaciones from './components/pages/Certificaciones.jsx'
 import Divider from './components/shared/Divider.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 
 
@@ -11,9 +13,9 @@ function App() {
 
 
 
+
   const estilos ={
     main:{
-      position: 'absolute',
       height: '100vh',
       width: '100vw',
       minHeight: '100vh'
@@ -32,9 +34,9 @@ function App() {
     <div style={estilos.backgroundMain}>
       <Header/>
       <Main/>
-      <Certificaciones/>
     </div>
   </main>
+      <Certificaciones/>
 
   </>
   )
