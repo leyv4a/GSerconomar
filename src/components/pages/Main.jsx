@@ -1,7 +1,9 @@
 import React from 'react'
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
+import { useTranslation } from 'react-i18next';
 
 function Main() {
+  const { t } = useTranslation();
 
     const [cabeceroForm] = useTypewriter({
         words:['¡Mantente en contacto!', '¡Keep in touch!','¡On reste en contact!' ,'¡Mantenha-se em contato!'],
@@ -43,7 +45,7 @@ function Main() {
       ];
   return (
    <>
-         <div className="container">
+         <div className="container pt-5">
         <div className="row">
           <div className="d-none d-sm-none d-lg-flex d-md-none d-xl-flex col-6  justify-content-center align-items-center " style={{height: '60vh'}}>
               <img src="/LogoSerChico.png" alt="Serconomar" style={{width: '100%'}}/>
@@ -55,7 +57,7 @@ function Main() {
             {/* Campo nombre */}
             <div className="form-floating mb-3">
               <input type="text" className="form-control"  placeholder="Nombre"/>
-              <label >Nombre</label>
+              <label >{t('header.productos')}</label>
             </div>
 
             {/* Campo correo */}

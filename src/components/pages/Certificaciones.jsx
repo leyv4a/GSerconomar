@@ -33,7 +33,7 @@ function Certificaciones() {
 
 
   return (
-    <div className=" d-flex justify-content-center" style={{backgroundColor: '#77bfbe'}} >
+    <section className=" d-flex justify-content-center" style={{backgroundColor: '#77bfbe'}} >
     <Marquee speed={100} autoFill pauseOnHover gradient={!isMobile} gradientColor="#77bfbe" style={{width: '50%', height: '40vh', overflowY: 'hidden'}}> 
       <div className="" style={{width: '70%', height: '100%'}}>
         <img style={{width: '100%'}} src={Haccp}></img>
@@ -46,7 +46,7 @@ function Certificaciones() {
      </div>
      
     </Marquee>
-    </div>
+    </section>
   )
 }
 

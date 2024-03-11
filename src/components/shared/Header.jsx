@@ -1,6 +1,8 @@
 import React, {useEffect, useState} from 'react';
+import { useTranslation } from 'react-i18next';
 
 function Header() {
+  const { t } = useTranslation();
 
   const [isMobile, setIsMobile] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,7 +40,7 @@ function Header() {
 
   return (
    <>
-  <nav className={`navbar navbar-expand-lg sticky-top ${isMobile ? ' bg-light' : ''} ${isScrolled ? ' bg-light' : ''}`} >
+  <nav className={`navbar navbar-expand-lg fixed-top ${isMobile ? ' bg-light' : ''} ${isScrolled ? ' bg-light' : ''}`} >
   <div className="container py-1">
     <a className="navbar-brand d-block d-sm-block d-md-none d-lg-none d-xl-none" href="#"><img style={{width: '126px'}} src='/LogoSerChico.png'></img></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,11 +48,10 @@ function Header() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav me-auto mb-2 mb-lg-0 mt-xs-5 fw-semibold">
-         <a className="nav-link active text-center" href="#">Productos</a>
-        <a className="nav-link active text-center" href="#">Nosotros</a>
-        <a className="nav-link active text-center" href="#">Procesos</a>
-        <a className="nav-link active text-center" href="#">Filosofia</a>
-        <a className="nav-link active text-center" href="#">Nosotros</a>
+         <a className="nav-link active text-center" href="#">{t('header.productos')}</a>
+        <a className="nav-link active text-center" href="#">{t('header.nosotros')}</a>
+        <a className="nav-link active text-center" href="#">{t('header.procesos')}</a>
+        <a className="nav-link active text-center" href="#">{t('header.filosofia')}</a>
       </div>
       <span className="d-flex justify-content-center">
         <a className="btn btn-primary " href="#">Bolsa de trabajo</a>

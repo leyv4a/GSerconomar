@@ -1,17 +1,13 @@
 import Header from './components/shared/Header.jsx'
 import Main from './components/pages/Main.jsx'
 import Certificaciones from './components/pages/Certificaciones.jsx'
-import Divider from './components/shared/Divider.jsx'
+import Producto from './components/pages/Producto.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
-
-
-
+import { I18nextProvider } from 'react-i18next';
+import i18n from './i18n';
 
 function App() {
-
-
 
 
   const estilos ={
@@ -30,14 +26,16 @@ function App() {
   }
   return (
   <>
-  <main style={estilos.main} >
-    <div style={estilos.backgroundMain}>
-      <Header/>
-      <Main/>
-    </div>
-  </main>
-      <Certificaciones/>
-
+  <I18nextProvider i18n={i18n}>
+    <main style={estilos.main} >
+      <div style={estilos.backgroundMain}>
+        <Header/>
+        <Main/>
+      </div>
+    </main>
+        <Certificaciones/>
+        <Producto/>
+  </I18nextProvider>
   </>
   )
 }
