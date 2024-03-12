@@ -7,6 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n.js';
 import Mexicana from './components/pages/Mexicana.jsx';
+import Nosotros from './components/pages/Nosotros.jsx';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
         <Certificaciones/>
         {/* <Mexicana/>  */}
         <Producto/>
+        <Nosotros/>
   </I18nextProvider>
   </>
   )

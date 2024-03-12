@@ -49,7 +49,7 @@ function Header() {
    <>
   <nav className={`navbar navbar-expand-lg fixed-top ${isMobile ? ' bg-light' : ''} ${isScrolled ? ' bg-light shadow' : ''}`} >
   <div className="container py-1">
-    <a className="navbar-brand d-block d-sm-block d-md-none d-lg-none d-xl-none" href="#"><img style={{width: '126px'}} src='/LogoSerChico.png'></img></a>
+    <a className="navbar-brand d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none" href="#"><img style={{width: '126px'}} src='/LogoSerChico.png'></img></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

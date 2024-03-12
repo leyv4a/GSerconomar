@@ -5,7 +5,7 @@ export default function Mexicana() {
   const { t } = useTranslation();
 
   return (
-    <section id="mexicana" style={{height: '25vh'}}>
+    <section id="mexicana" style={{height: '25vh', fontFamily: 'Cosmos'}}>
     <div className="d-flex flex-column " 
       // style={{ 
       // background: 'rgb(119, 191, 190)',
@@ -15,11 +15,11 @@ export default function Mexicana() {
     height: '25vh',
     backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 0%, transparent 100%), url(/ocean3.jpg)',
     backgroundPosition: 'center',
-    backgroundSize: 'cover'
+    backgroundSize: 'auto'
 }}
       >
-      <div className="my-auto text-white">
-        <h2 className=" text-center">{t('mexicana.header')}</h2>
+      <div className="my-auto text-white fw-bolder" >
+        <h2 className=" text-center fw-bolder" >{t('mexicana.header')}</h2>
         <h4 className=" text-center d-none d-sm-none d-md-block d-xl-bl">{t('mexicana.text')}</h4>
       </div>
     </div>

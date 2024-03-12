@@ -73,5 +73,12 @@
     "solublegrasaporcentaje":"8%",
 
     "fichatecnica": "Ficha Tecnica"
+  },
+  "nosotros":{
+    "titulo": "Sobre nosotros",
+    "subtitulo": "Nuestras instalaciones y personal",
+    "texto1": "Ubicados en el puerto de Guaymas, Sonora, México, contamos con una flota pesquera de seis embarcaciones equipadas con sistema sonar y ecosonda.",
+    "texto2": "Somos una empresa dedicada a la pesca responsable de sardina en el golfo de California; suministramos materia prima de alta calidad a fin de satisfacer las necesidades de nuestra empresa productora de harina, aceite y soluble de pescado, explotando de forma responsable los recursos pesqueros disponibles, respetando la preservación de especies y el cuidado del medio ambiente.",
+    "texto3": "En Serconomar contamos con una plantilla de 250 empleados, siendo el capital humano el recurso más importante para nuestra empresa."
   }
 }

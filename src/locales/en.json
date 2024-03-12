@@ -73,5 +73,12 @@
     "solublegrasatitle":"Fat",
     "solublegrasaporcentaje":"8%",
     "fichatecnica": "Technical Datasheet"
+  },
+  "nosotros":{
+    "titulo": "About us",
+    "subtitulo": "Our Staff and Facilities",
+    "texto1": "Located in the port of Guaymas, Sonora, Mexico, we have a fleet of six fishing vessels equipped with sonar and echo sounders.",
+    "texto2": "We are a company dedicated to responsible sardine fishing in the Gulf of California. We supply high-quality raw materials to meet the needs of our fishmeal, fish oil, and fish soluble production. We responsibly exploit available fishery resources, respecting species preservation and environmental care.",
+    "texto3": "In Serconomar, we have a team of 250 employees, considering human capital as the most important resource for our company."
   }
 }
