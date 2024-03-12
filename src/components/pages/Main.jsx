@@ -66,20 +66,20 @@ function Main() {
               <label >{t('mainForm.correo')}</label>
             </div>
             {/* Campo numero de telefono */}
-            <div className="input-group mb-3">
-            <select className="form-select" aria-label="Select country" style={{maxHeight: '3.6rem' , maxWidth: '4rem'}}> 
+            {/* <div className="input-group mb-3"> */}
+            {/* <select className="form-select" aria-label="Select country" style={{maxHeight: '3.6rem' , maxWidth: '4rem'}}> 
              {countries.map((country, key) => {
               return (
                 <option key={key} value={country.code}>{country.flag}</option>
               )
              })}
-            </select>
-            <div className="form-floating ">
+            </select> */}
+            <div className="form-floating mb-3">
               <input type="tel" className="form-control" placeholder="Telefono"/>
               <label >{t('mainForm.telefono')}</label>
             </div>
 
-          </div>
+          {/* </div> */}
 
           <div className="form-floating mb-3">
             <textarea rows={5} style={{resize: 'none'}} className="form-control" placeholder="¡Deja tu mensaje!" ></textarea>

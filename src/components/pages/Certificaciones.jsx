@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import { PiCertificateFill } from "react-icons/pi";
 import Marquee from "react-fast-marquee";
-import Haccp from '/haccp.png';
-import Msc from '/msc.png';
-import Senasica from '/senasica.png';
+import Haccp from '/certificaciones/haccp.png';
+import Msc from '/certificaciones/msc.png';
+import Senasica from '/certificaciones/senasica.png';
 
 //77bfbe
 function Certificaciones() {

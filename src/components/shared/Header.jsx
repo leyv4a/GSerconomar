@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import { useTranslation } from 'react-i18next';
 import '../../i18n.js'; // Importa la configuración de i18n
+import { TbLanguage } from "react-icons/tb";
 
 function Header() {
   const { t, i18n  } = useTranslation();
@@ -62,8 +63,8 @@ function Header() {
       <span className="d-flex justify-content-center">
         <div className='me-2'>
           <select className='form-select ' onChange={changeLanguage} value={i18n.language} style={{cursor: 'pointer'}}>
-            <option value="es-MX" >&#127474;&#127485;</option>
-            <option value="en-US" >&#127482;&#127480;</option>
+            <option value="es-MX">Español</option>
+            <option value="en-US">English</option>
           </select>
         </div>
         <a className="btn btn-primary " href="#">{t('header.bolsatrabajo')}</a>
