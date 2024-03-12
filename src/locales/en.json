@@ -18,5 +18,15 @@
   "mexicana": {
     "header": "100% MEXICAN PRODUCT",
     "text": "At Serconomar, we have a brand-new processing plant with a production capacity of 50 tons per hour."
+  },
+  "productos":{
+    "presentacion" : "PRODUCTS",
+    "harina" : "Fish Meal",
+    "harinainfo": "It is a concentrated powder product resulting from the cooking, pressing, steam drying, and grinding of whole sardines, free from microorganisms and harmful substances for animal and aquaculture health. It has a high percentage of digestible protein and fat, rich in Omega-3 fatty acids, DHA, and EPA, essential for the rapid growth of fish and animals.",
+    "aceite": "Fish Oil",
+    "aceiteinfo": "It is an unrefined liquid obtained from the separation of fish fat through a cooking and centrifugation process. It is a product of high nutritional value due to its Omega-3 fatty acid content, and its lipid content is close to 100%. These essential fatty acids are beneficial for fish nutrition and human consumption. It has low moisture content, providing greater oxidative stability.",
+    "soluble": "Soluble",
+    "solubleinfo": "It is a viscous brown liquid obtained from the concentration of stickwater in evaporators. Rich in high-quality proteins, it consists mainly of suspended solids, oil, and solids in solution. Used in agriculture and gardening for soil improvement and enrichment due to its high percentage of nitrogen, phosphorus, potassium, and soluble protein. It can also be reintroduced into the fish meal manufacturing process to enhance its protein quality.",
+    "fichatecnica": "Technical Datasheet"
   }
 }

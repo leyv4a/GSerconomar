@@ -26,7 +26,7 @@ function Header() {
   // Agrega un event listener para manejar cambios de tamaño de ventana
   useEffect(() => {
     handleResize()
-
+    
     window.addEventListener('load', handleResize);
 
     // Agrega un event listener para manejar el scroll cuando no es mobile
@@ -54,16 +54,16 @@ function Header() {
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav me-auto mb-2 mb-lg-0 mt-xs-5 fw-semibold">
-         <a className="nav-link active text-center" href="#">{t('header.productos')}</a>
+         <a className="nav-link active text-center" href="#productos">{t('header.productos')}</a>
         <a className="nav-link active text-center" href="#">{t('header.nosotros')}</a>
         <a className="nav-link active text-center" href="#">{t('header.procesos')}</a>
         <a className="nav-link active text-center" href="#">{t('header.filosofia')}</a>
       </div>
       <span className="d-flex justify-content-center">
         <div className='me-2'>
-          <select className='form-select ' onChange={changeLanguage} style={{cursor: 'pointer'}}>
-            <option value="es">&#127474;&#127485;</option>
-            <option value="en">&#127482;&#127480;</option>
+          <select className='form-select ' onChange={changeLanguage} value={i18n.language} style={{cursor: 'pointer'}}>
+            <option value="es-MX" >&#127474;&#127485;</option>
+            <option value="en-US" >&#127482;&#127480;</option>
           </select>
         </div>
         <a className="btn btn-primary " href="#">{t('header.bolsatrabajo')}</a>
