@@ -3,6 +3,30 @@
     "productos": "Productos",
     "nosotros": "Nosotros",
     "procesos": "Procesos",
-    "filosofia": "Filosofia"
+    "filosofia": "Filosofia",
+    "bolsatrabajo": "Bolsa de Trabajo"
+  },
+  "mainForm":{
+    "nombre": "Nombre",
+    "correo": "Correo",
+    "telefono": "Telefono",
+    "mensaje": "Mensaje",
+    "enviar": "Enviar",
+    "aviso": "Al hacer click al boton 'Enviar', estas aceptando las ",
+    "politicas": "Política de Privacidad y Términos de Servicio"
+  },
+  "mexicana": {
+    "header": "PRODUCTO 100% MEXICANO",
+    "text": "En Serconomar contamos con una planta de procesamiento completamente nueva, con una capacidad de producción de 50 toneladas por hora."
+  },
+  "productos":{
+    "presentacion" : "PRODUCTOS",
+    "harina" : "Harina de pescado",
+    "harinainfo": "Es un producto en polvo concentrado resultante del cocimiento, prensado, secado a vapor y molienda de Sardina entera, libre de microorganismos y sustancias nocivas para la salud animal y acuícola. Cuenta con un alto porcentaje de proteína y grasa digerible, rica en ácidos grasos Omega-3, DHA y EPA, indispensables para el rápido crecimiento de los peces y animales.",
+    "aceite": "Aceite de pescado",
+    "aceiteinfo": "Es un líquido sin refinar, obtenido de la separación de la grasa del pescado mediante un proceso de cocción y centrifucación. Es un producto de alto valor nutricional por su contenido de ácidos grasos Omega-3 y su contenido de lípidos es cercano al 100%, estos ácidos grasos son de tipo esencial para la alimentación de peces y beneficiosas para la alimentación humana, cuenta con un bajo contenido de humedad, lo que le otorga mayor estabilidad oxidativa.",
+    "soluble": "Soluble",
+    "solubleinfo": "Es un líquido viscoso color café, se obtiene a partir de la concentración del agua de cola en evaporadores, rico en proteínas de alta calidad constituido principalmente por solidos en suspensión, aceite y solidos en solución. Es utilizado en agricultura y jardinería, para el mejoramiento y enriquecimiento de suelos por su alto porcentaje de nitrógeno, fosforo, potasio y proteína soluble, o se reincorpora al proceso de fabricación de harina de pescado para enriquecer su calidad proteica.",
+    "fichatecnica": "Ficha Tecnica"
   }
 }

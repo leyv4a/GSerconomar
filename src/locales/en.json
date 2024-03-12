@@ -3,6 +3,20 @@
     "productos": "Products",
     "nosotros": "About Us",
     "procesos": "Process",
-    "filosofia": "Philosophy"
+    "filosofia": "Philosophy",
+    "bolsatrabajo": "Job Board"
+  },
+  "mainForm":{
+    "nombre": "Full Name",
+    "correo": "E-Mail",
+    "telefono": "Phone Number",
+    "mensaje": "Message",
+    "enviar": "Go",
+    "aviso": "By clicking the 'Go' button yo are accepting the",
+    "politicas": "Terms of Services and Privacy Policy"
+  },
+  "mexicana": {
+    "header": "100% MEXICAN PRODUCT",
+    "text": "At Serconomar, we have a brand-new processing plant with a production capacity of 50 tons per hour."
   }
 }

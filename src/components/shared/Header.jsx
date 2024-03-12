@@ -1,8 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import { useTranslation } from 'react-i18next';
+import '../../i18n.js'; // Importa la configuración de i18n
 
 function Header() {
-  const { t } = useTranslation();
+  const { t, i18n  } = useTranslation();
+
+  const changeLanguage = (e) => {
+    const selectedLanguage = e.target.value;
+    i18n.changeLanguage(selectedLanguage);
+  };
 
   const [isMobile, setIsMobile] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,7 +46,7 @@ function Header() {
 
   return (
    <>
-  <nav className={`navbar navbar-expand-lg fixed-top ${isMobile ? ' bg-light' : ''} ${isScrolled ? ' bg-light' : ''}`} >
+  <nav className={`navbar navbar-expand-lg fixed-top ${isMobile ? ' bg-light' : ''} ${isScrolled ? ' bg-light shadow' : ''}`} >
   <div className="container py-1">
     <a className="navbar-brand d-block d-sm-block d-md-none d-lg-none d-xl-none" href="#"><img style={{width: '126px'}} src='/LogoSerChico.png'></img></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +60,13 @@ function Header() {
         <a className="nav-link active text-center" href="#">{t('header.filosofia')}</a>
       </div>
       <span className="d-flex justify-content-center">
-        <a className="btn btn-primary " href="#">Bolsa de trabajo</a>
+        <div className='me-2'>
+          <select className='form-select ' onChange={changeLanguage} style={{cursor: 'pointer'}}>
+            <option value="es">&#127474;&#127485;</option>
+            <option value="en">&#127482;&#127480;</option>
+          </select>
+        </div>
+        <a className="btn btn-primary " href="#">{t('header.bolsatrabajo')}</a>
       </span>
     </div>
   </div>

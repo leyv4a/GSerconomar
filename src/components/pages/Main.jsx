@@ -45,56 +45,56 @@ function Main() {
       ];
   return (
    <>
-         <div className="container pt-5">
-        <div className="row">
+         <div className="container pt-5" style={{overflow: 'hidden'}}>
+        <div className="row" style={{overflow: 'hidden'}}>
           <div className="d-none d-sm-none d-lg-flex d-md-none d-xl-flex col-6  justify-content-center align-items-center " style={{height: '60vh'}}>
               <img src="/LogoSerChico.png" alt="Serconomar" style={{width: '100%'}}/>
           </div>
-          <div className=" col-sm-12 col-12 col-md-12 col-lg-6 col-xl-6 text-center py-5 px-5 ">
+          <div className=" col-sm-12 col-12 col-md-12 col-lg-6 col-xl-6 text-center py-5 px-5" >
             <div className='bg-light card p-3 shadow'>
               <h1 className='mb-3 fs-2'>{cabeceroForm} <Cursor/></h1>
 
             {/* Campo nombre */}
             <div className="form-floating mb-3">
               <input type="text" className="form-control"  placeholder="Nombre"/>
-              <label >{t('header.productos')}</label>
+              <label >{t('mainForm.nombre')}</label>
             </div>
 
             {/* Campo correo */}
             <div className="form-floating mb-3">
               <input type="email" className="form-control"  placeholder="Correo"/>
-              <label >Correo</label>
+              <label >{t('mainForm.correo')}</label>
             </div>
             {/* Campo numero de telefono */}
             <div className="input-group mb-3">
             <select className="form-select" aria-label="Select country" style={{maxHeight: '3.6rem' , maxWidth: '4rem'}}> 
-             {countries.map(country => {
+             {countries.map((country, key) => {
               return (
-                <option value={country.code}>{country.flag}</option>
+                <option key={key} value={country.code}>{country.flag}</option>
               )
              })}
             </select>
-            <div class="form-floating ">
-              <input type="tel" class="form-control" placeholder="Telefono"/>
-              <label >Telefono</label>
+            <div className="form-floating ">
+              <input type="tel" className="form-control" placeholder="Telefono"/>
+              <label >{t('mainForm.telefono')}</label>
             </div>
 
           </div>
 
           <div className="form-floating mb-3">
             <textarea rows={5} style={{resize: 'none'}} className="form-control" placeholder="¡Deja tu mensaje!" ></textarea>
-            <label >Mensaje</label>
+            <label >{t('mainForm.mensaje')}</label>
           </div>
 
 
           {/* Boton */}
           <div className="mb-3 d-grid gap-2">
-            <button className='btn btn-primary btn-lg'> Enviar </button>
+            <button className='btn btn-primary btn-lg'> {t('mainForm.enviar')} </button>
           </div>
             
             {/* Aviso  */}
             <div className="mb-3">
-            <p><small>Al hacer click al boton 'Enviar', estas aceptando las <a href='#hola'>Política de Privacidad y Términos de Servicio</a> </small></p>
+            <p><small>{t('mainForm.aviso')} <a href='#hola'>{t('mainForm.politicas')}</a> </small></p>
             </div>
             
             </div>

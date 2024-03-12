@@ -5,7 +5,8 @@ import Producto from './components/pages/Producto.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { I18nextProvider } from 'react-i18next';
-import i18n from './i18n';
+import i18n from './i18n.js';
+import Mexicana from './components/pages/Mexicana.jsx';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       </div>
     </main>
         <Certificaciones/>
+        {/* <Mexicana/>  */}
         <Producto/>
   </I18nextProvider>
   </>
