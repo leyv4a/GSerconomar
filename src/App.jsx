@@ -8,6 +8,7 @@ import { I18nextProvider } from 'react-i18next';
 import i18n from './i18n.js';
 import Mexicana from './components/pages/Mexicana.jsx';
 import Nosotros from './components/pages/Nosotros.jsx';
+import Procesos from './components/pages/Procesos.jsx';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
         {/* <Mexicana/>  */}
         <Producto/>
         <Nosotros/>
+        <Procesos/>
   </I18nextProvider>
   </>
   )

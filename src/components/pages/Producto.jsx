@@ -8,6 +8,7 @@ import Aceite from '../products/Aceite.jsx';
 function Producto() {
   
   const [productoActual, setProductoActual] = useState(null);
+  const [producto, setProducto] = useState("Harina");
 
   const renderizarProducto = (componente) => {
     setProductoActual(componente);
@@ -25,13 +26,13 @@ function Producto() {
       <h2 className='fs-1'><span className='border-bottom border-primary-subtle border-4 ' style={{fontFamily: 'Cosmos'}}>{t('productos.presentacion')}&nbsp; &nbsp;</span></h2>
       <div className="d-flex justify-content-evenly align-items-center " style={{width:' 80%'}}>
       <div>
-        <input onClick={() => renderizarProducto(<Harina />)} type="image" src="/productos/harina.jpg" style={{width:'7rem'}} className="rounded-circle" />
+        <input onClick={() => {renderizarProducto(<Harina />); setProducto('Harina')}} type="image" src="/productos/harina.jpg" style={{width:'7rem'}} className={`rounded-circle ${producto == "Harina" ? 'shadow' : ''}`}/>
       </div>
       <div>
-        <input onClick={() => renderizarProducto(<Soluble />)} type="image" src="/productos/soluble.png" style={{width:'7rem'}} className="rounded-circle" />
+        <input onClick={() =>{ renderizarProducto(<Soluble />); setProducto('Soluble')}} type="image" src="/productos/soluble.png" style={{width:'7rem'}} className={`rounded-circle ${producto == "Soluble" ? 'shadow' : ''}`} />
       </div>
       <div>
-        <input onClick={() => renderizarProducto(<Aceite />)} type="image" src="/productos/aceite.png" style={{width:'7rem'}} className="rounded-circle" />
+        <input onClick={() => {renderizarProducto(<Aceite />); setProducto('Aceite')}} type="image" src="/productos/aceite.png" style={{width:'7rem'}} className={`rounded-circle ${producto == "Aceite" ? 'shadow' : ''}`}/>
       </div>
       </div>
      </div>

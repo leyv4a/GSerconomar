@@ -56,7 +56,7 @@ function Header() {
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav me-auto mb-2 mb-lg-0 mt-xs-5 fw-semibold">
          <a className="nav-link active text-center" href="#productos">{t('header.productos')}</a>
-        <a className="nav-link active text-center" href="#">{t('header.nosotros')}</a>
+        <a className="nav-link active text-center" href="#nosotros">{t('header.nosotros')}</a>
         <a className="nav-link active text-center" href="#">{t('header.procesos')}</a>
         <a className="nav-link active text-center" href="#">{t('header.filosofia')}</a>
       </div>

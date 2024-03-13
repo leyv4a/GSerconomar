@@ -80,5 +80,10 @@
     "texto1": "Ubicados en el puerto de Guaymas, Sonora, México, contamos con una flota pesquera de seis embarcaciones equipadas con sistema sonar y ecosonda.",
     "texto2": "Somos una empresa dedicada a la pesca responsable de sardina en el golfo de California; suministramos materia prima de alta calidad a fin de satisfacer las necesidades de nuestra empresa productora de harina, aceite y soluble de pescado, explotando de forma responsable los recursos pesqueros disponibles, respetando la preservación de especies y el cuidado del medio ambiente.",
     "texto3": "En Serconomar contamos con una plantilla de 250 empleados, siendo el capital humano el recurso más importante para nuestra empresa."
+  },
+  "procesos":{
+    "conocenos": "Conocenos",
+    "titulo": "Nuestros procesos",
+    "texto": "El proceso inicia una vez que nuestras embarcaciones emprenden su viaje para la captura de materia prima. Al arribar la embarcación con carga al muelle se procede con la descarga por medio de una bomba de vacío, cuya función es succionar la materia prima desde las bodegas de la embarcación para ser trasladado a planta. Posteriormente la materia prima ingresa a nuestras pilas de acero inoxidable con capacidad de 160 toneladas."
   }
 }
