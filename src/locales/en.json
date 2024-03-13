@@ -100,5 +100,24 @@
     "valorestexto5":"Teamwork", 
     "calidad":"Quality Policy", 
     "calidadtexto":"We are committed to producing and marketing safe and high-quality products, focusing on meeting customer requirements. We seek innovation and continuous improvement, working as a team with honest and dedicated personnel to the company"
+ },
+ "footer":{
+  "contacto": "For suggestions or comments please send them to:",
+  "email": "sugerencias@serconomar.com",
+  "direccion": "Direccion : Lote #3 Manzana B S/N Parque Industrial Pesquero Rodolfo Sánchez Taboada.",
+  "redessociales": "SOCIAL MEDIA",
+  "horario": "View Schedule",
+    "lunes": "Monday",
+    "martes": "Tuesday",
+    "miercoles": "Wednesday",
+    "jueves": "Thursday",
+    "viernes": "Friday",
+    "sabado": "Saturday",
+    "domingo": "Sunday",
+    "cerrado": "Closed"
+ },
+ "desarrollo": {
+  "copy": "Developed by ",
+  "pagina" : "Geverel Software"
  }
 }

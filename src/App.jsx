@@ -11,6 +11,7 @@ import Nosotros from './components/pages/Nosotros.jsx';
 import Procesos from './components/pages/Procesos.jsx';
 import Filosofia from './components/pages/Filosofia.jsx';
 import Mapa from './components/pages/Mapa.jsx';
+import Footer from './components/pages/Footer.jsx';
 
 function App() {
 
@@ -45,6 +46,7 @@ function App() {
         <Filosofia/>
         <Mexicana/> 
         <Mapa/>
+        <Footer/>
   </I18nextProvider>
   </>
   )

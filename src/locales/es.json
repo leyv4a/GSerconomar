@@ -100,5 +100,24 @@
     "valorestexto5":"Trabajo en equipo", 
     "calidad":"Politica de calidad", 
     "calidadtexto":"Estamos comprometidos en producir y comercializar productos inocuos y de calidad, con enfoque al cumplimiento de los requerimientos del cliente, buscando la innovación y mejora continua, trabajando en equipo con personal integro y comprometido con la empresa."
+ },
+ "footer":{
+  "contacto": "En caso de sugerencias o comentarios favor de enviarlas a:",
+  "email": "sugerencias@serconomar.com",
+  "direccion": "Direccion : Lote #3 Manzana B S/N Parque Industrial Pesquero Rodolfo Sánchez Taboada.",
+  "redessociales": "REDES SOCIALES",
+  "horario": "Ver horario",
+    "lunes": "Lunes",
+    "martes": "Martes",
+    "miercoles": "Miércoles",
+    "jueves": "Jueves",
+    "viernes": "Viernes",
+    "sabado": "Sábado",
+    "domingo": "Domingo",
+    "cerrado": "Cerrado"
+ },
+ "desarrollo": {
+  "copy": "Desarrollado por ",
+  "pagina" : "Geverel Software"
  }
 }
