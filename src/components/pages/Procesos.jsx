@@ -18,10 +18,26 @@ export default function Procesos() {
         {
             original: '/procesos/centrifuga.png',
             thumbnail: '/procesos/centrifuga.png'
+        },
+        {
+            original: '/procesos/labo3.png',
+            thumbnail: '/procesos/labo3.png'
+        },
+        {
+            original: '/procesos/Muelle1.png',
+            thumbnail: '/procesos/Muelle1.png'
+        },
+        {
+            original: '/procesos/Planta6.png',
+            thumbnail: '/procesos/Planta6.png'
+        },
+        {
+            original: '/procesos/sardina.png',
+            thumbnail: '/procesos/sardina.png'
         }
     ]
   return (
-    <section className='container' style={{width: '100vw', height: '100vh'}}>
+    <section id='procesos' className='container' style={{width: '100vw', height: '100vh'}}>
         <div className="row h-100">
             <div className="col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 my-auto text-center">
                 <h2 className='text-primary-emphasis fw-bolder' style={{fontFamily: 'Cosmos', textAlign: 'justify'}}>{t('procesos.titulo')}</h2>

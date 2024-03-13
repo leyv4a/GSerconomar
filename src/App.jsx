@@ -9,6 +9,8 @@ import i18n from './i18n.js';
 import Mexicana from './components/pages/Mexicana.jsx';
 import Nosotros from './components/pages/Nosotros.jsx';
 import Procesos from './components/pages/Procesos.jsx';
+import Filosofia from './components/pages/Filosofia.jsx';
+import Mapa from './components/pages/Mapa.jsx';
 
 function App() {
 
@@ -37,10 +39,12 @@ function App() {
       </div>
     </main>
         <Certificaciones/>
-        {/* <Mexicana/>  */}
         <Producto/>
         <Nosotros/>
         <Procesos/>
+        <Filosofia/>
+        <Mexicana/> 
+        <Mapa/>
   </I18nextProvider>
   </>
   )

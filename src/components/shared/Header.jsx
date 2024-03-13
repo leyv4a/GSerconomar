@@ -57,8 +57,8 @@ function Header() {
       <div className="navbar-nav me-auto mb-2 mb-lg-0 mt-xs-5 fw-semibold">
          <a className="nav-link active text-center" href="#productos">{t('header.productos')}</a>
         <a className="nav-link active text-center" href="#nosotros">{t('header.nosotros')}</a>
-        <a className="nav-link active text-center" href="#">{t('header.procesos')}</a>
-        <a className="nav-link active text-center" href="#">{t('header.filosofia')}</a>
+        <a className="nav-link active text-center" href="#procesos">{t('header.procesos')}</a>
+        <a className="nav-link active text-center" href="#filosofia">{t('header.filosofia')}</a>
       </div>
       <span className="d-flex justify-content-center">
         <div className='me-2'>

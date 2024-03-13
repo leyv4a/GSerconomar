@@ -80,5 +80,25 @@
     "texto1": "Located in the port of Guaymas, Sonora, Mexico, we have a fleet of six fishing vessels equipped with sonar and echo sounders.",
     "texto2": "We are a company dedicated to responsible sardine fishing in the Gulf of California. We supply high-quality raw materials to meet the needs of our fishmeal, fish oil, and fish soluble production. We responsibly exploit available fishery resources, respecting species preservation and environmental care.",
     "texto3": "In Serconomar, we have a team of 250 employees, considering human capital as the most important resource for our company."
-  }
+  },
+  "procesos":{
+    "conocenos": "Get to know us",
+    "titulo": "Our processes",
+    "texto": "The process begins once our vessels set sail for raw material capture. Upon the vessel's arrival at the dock with its cargo, unloading is carried out using a vacuum pump. The function of this pump is to suction the raw material from the vessel's holds to be transported to the plant. Subsequently, the raw material enters our stainless steel piles with a capacity of 160 tons. "
+  },
+  "filosofia":{
+    "filosofia": "Philosophy",
+    "mision" : "Mission",
+    "misiontexto": "Produce fish meal, oil, and soluble according to the needs of our national and international customers, generating value for our customers, shareholders, and collaborators. Consolidate ourselves as a marine protein production company with high international recognition.",
+    "vision":"Vision", 
+    "visiontexto":"Position ourselves as a Profitable and Innovative company with National and International Recognition in the production and commercialization of fish meal, oil, and soluble. Achieve sales of our products in Asia, Europe, North America, and South America by the year 2025.", 
+    "valores":"Values", 
+    "valorestexto1":"Responsibility", 
+    "valorestexto2":"Integrity", 
+    "valorestexto3":"Flexibility", 
+    "valorestexto4":"Trust", 
+    "valorestexto5":"Teamwork", 
+    "calidad":"Quality Policy", 
+    "calidadtexto":"We are committed to producing and marketing safe and high-quality products, focusing on meeting customer requirements. We seek innovation and continuous improvement, working as a team with honest and dedicated personnel to the company"
+ }
 }

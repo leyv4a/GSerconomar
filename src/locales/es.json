@@ -85,5 +85,20 @@
     "conocenos": "Conocenos",
     "titulo": "Nuestros procesos",
     "texto": "El proceso inicia una vez que nuestras embarcaciones emprenden su viaje para la captura de materia prima. Al arribar la embarcación con carga al muelle se procede con la descarga por medio de una bomba de vacío, cuya función es succionar la materia prima desde las bodegas de la embarcación para ser trasladado a planta. Posteriormente la materia prima ingresa a nuestras pilas de acero inoxidable con capacidad de 160 toneladas."
-  }
+  },
+  "filosofia":{
+    "filosofia": "Filosofía",
+    "mision" : "Misión",
+    "misiontexto": "Producir harina, aceite y soluble de pescado conforme a las necesidades de nuestros clientes nacionales e internacionales, generando valor para nuestros clientes, accionistas y colaboradores; consolidándonos como una empresa productora de proteínas marinas con alto reconocimiento internacional.",
+    "vision":"Visión", 
+    "visiontexto":"Posicionarnos como empresa Rentable e Innovadora con Reconocimiento Nacional e Internacional en la producción y comercialización de harina, aceite y soluble de pescado; logrando vender nuestros productos en Asia, Europa, Norte América y Sudamérica para el año 2025.", 
+    "valores":"Valores", 
+    "valorestexto1":"Responsibilidad", 
+    "valorestexto2":"Integridad", 
+    "valorestexto3":"Flexibilidad", 
+    "valorestexto4":"Confianza", 
+    "valorestexto5":"Trabajo en equipo", 
+    "calidad":"Politica de calidad", 
+    "calidadtexto":"Estamos comprometidos en producir y comercializar productos inocuos y de calidad, con enfoque al cumplimiento de los requerimientos del cliente, buscando la innovación y mejora continua, trabajando en equipo con personal integro y comprometido con la empresa."
+ }
 }
