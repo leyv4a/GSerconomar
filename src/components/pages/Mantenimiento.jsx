@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
+import Header from '../shared/Header';
 export default function Mantenimiento() {
 
     const {t} = useTranslation();
@@ -20,8 +21,9 @@ export default function Mantenimiento() {
   return (
     <div style={{backgroundColor: '#d9f8ff'}}>
     <main style={estilos.main} >
+        <Header backg={'bg-light'} isHome={false}/>
     <div className='d-flex justify-content-start align-items-center' style={estilos.backgroundMain}>
-        <h2 className='text-info-emphasis fw-bolder my-5' style={{fontFamily: 'Cosmos', fontSize: '8vw'}}>{t('mantenimiento.titulo')}</h2>
+        <h2 className='text-info-emphasis fw-bolder ms-3' style={{fontFamily: 'Cosmos', fontSize: '5vw'}}>{t('mantenimiento.titulo')}</h2>
     </div>
   </main>
       </div>

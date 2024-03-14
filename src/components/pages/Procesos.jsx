@@ -37,7 +37,7 @@ export default function Procesos() {
         }
     ]
   return (
-    <section id='procesos' className='container' style={{width: '100vw', height: '100vh'}}>
+    <section id={`${t('header.procesos')}`} className='container' style={{width: '100vw', height: '100vh'}}>
         <div className="row h-100">
             <div className="col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 col-xxl-6 my-auto text-center">
                 <h2 className='text-primary-emphasis fw-bolder' style={{fontFamily: 'Cosmos', textAlign: 'justify'}}>{t('procesos.titulo')}</h2>

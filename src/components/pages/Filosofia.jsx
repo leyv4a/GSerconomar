@@ -7,7 +7,7 @@ export default function Filosofia() {
     const { t } = useTranslation();
   
   return (
-    <section id='filosofia' className='container mb-5'>
+    <section id={`${t('header.filosofia')}`} className='container mb-5'>
         <div className="row">
             <h2 className='text-center fs-1 text-primary-emphasis fw-bolder' style={{fontFamily: 'Cosmos'}}>{t('filosofia.filosofia')}</h2>
         <div className="col-xl-3 my-3 col-lg-6 col-md-6">

@@ -6,14 +6,14 @@ export default function Nosotros() {
     
   const { t } = useTranslation();
   return (
-    <section id='nosotros' className='d-flex align-items-center overflow-y-hidden' style={{
+    <section id={`${t('header.nosotros2')}`} className='d-flex align-items-center overflow-y-hidden' style={{
         width: '100vw',
         height: '100vh',
         backgroundImage: 'url(/nosotros/almacenpt.png)',
         backgroundSize: 'cover'
     }}>
      <div className="container ">
-        <div className="row  p-5">
+        <div className="row  py-5">
          <div className="col-12 col-xs-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8  bg-light p-5 shadow rounded" >
          <h5 className="text-dark text-center fs-2 text-primary-emphasis fw-bolder" style={{fontFamily: 'Cosmos'}}>{t('nosotros.titulo')}</h5>
             <p className="fs-3 text-dark my-3 fw-bolder " style={{fontFamily: 'Cosmos'}}>{t('nosotros.subtitulo')}</p>

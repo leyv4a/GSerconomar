@@ -52,7 +52,7 @@ function Header( {isHome, backg} ) {
   <div className="container py-1">
   {
     isHome?  
-    <a className={`navbar-brand d-block d-sm-block d-md-block ${isScrolled ? ' ' : 'd-lg-none d-xl-none d-xxl-none'}`} href='#inicio'><img style={{width: '126px'}} src='/LogoSerChico.png'></img></a>
+    <a className={`navbar-brand d-block d-sm-block d-md-block ${isScrolled ? ' ' : 'd-lg-none d-xl-none d-xxl-none'}`} href={`#${t('header.inicio')}`}><img style={{width: '126px'}} src='/LogoSerChico.png'></img></a>
     :
     <Link className={`navbar-brand d-block d-sm-block d-md-block d-lg-block d-xl-block d-xxl-block`} to={"/"}><img style={{width: '126px'}} src='/LogoSerChico.png'></img></Link>
 }
@@ -65,10 +65,10 @@ function Header( {isHome, backg} ) {
        {
         isHome?
         <>
-        <a className="nav-link active text-center" href="#productos">{t('header.productos')}</a>
-        <a className="nav-link active text-center" href="#nosotros">{t('header.nosotros')}</a>
-        <a className="nav-link active text-center" href="#procesos">{t('header.procesos')}</a>
-        <a className="nav-link active text-center" href="#filosofia">{t('header.filosofia')}</a>
+        <a className="nav-link active text-center" href={`#${t('header.productos')}`}>{t('header.productos')}</a>
+        <a className="nav-link active text-center" href={`#${t('header.nosotros2')}`}>{t('header.nosotros')}</a>
+        <a className="nav-link active text-center" href={`#${t('header.procesos')}`}>{t('header.procesos')}</a>
+        <a className="nav-link active text-center" href={`#${t('header.filosofia')}`}>{t('header.filosofia')}</a>
         </>
         :
         ''
@@ -81,7 +81,12 @@ function Header( {isHome, backg} ) {
             <option value="en-US">English</option>
           </select>
         </div>
+       {
+        isHome? 
         <Link className="btn btn-primary " to={"/bdt"}>{t('header.bolsatrabajo')}</Link>
+        :
+        ''
+       }
         {/* <a className="btn btn-primary " href="#">{t('header.bolsatrabajo')}</a> */}
       </span>
     </div>

@@ -1,7 +1,9 @@
 {
   "header": {
+    "inicio" : "Inicio",
     "productos": "Productos",
     "nosotros": "Nosotros",
+    "nosotros2": "Nosotros",
     "procesos": "Procesos",
     "filosofia": "Filosofia",
     "bolsatrabajo": "Bolsa de Trabajo"

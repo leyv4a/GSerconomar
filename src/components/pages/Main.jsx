@@ -47,7 +47,7 @@ function Main() {
       ];
   return (
    <>
-         <div id='inicio' className="container pt-5" style={{overflow: 'hidden'}}>
+         <div id={t('header.inicio')} className="container pt-5" style={{overflow: 'hidden'}}>
         <div className="row" style={{overflow: 'hidden'}}>
           <div className="d-none d-sm-none d-lg-flex d-md-none d-xl-flex col-6  justify-content-center align-items-center " style={{height: '60vh'}}>
               <img src="/LogoSerChico.png" alt="Serconomar" style={{width: '100%'}}/>
