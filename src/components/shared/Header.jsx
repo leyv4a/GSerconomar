@@ -2,8 +2,9 @@ import React, {useEffect, useState} from 'react';
 import { useTranslation } from 'react-i18next';
 import '../../i18n.js'; // Importa la configuración de i18n
 import { TbLanguage } from "react-icons/tb";
+import {Link} from 'react-router-dom';
 
-function Header() {
+function Header( {isHome, backg} ) {
   const { t, i18n  } = useTranslation();
 
   const changeLanguage = (e) => {
@@ -47,18 +48,31 @@ function Header() {
 
   return (
    <>
-  <nav className={`navbar navbar-expand-lg fixed-top ${isMobile ? ' bg-light' : ''} ${isScrolled ? ' bg-light shadow' : ''}`} >
+  <nav className={`navbar navbar-expand-lg fixed-top  ${isMobile ?  backg : ''} ${isScrolled ?  backg +' shadow' : ''}`} >
   <div className="container py-1">
-    <a className="navbar-brand d-block d-sm-block d-md-block d-lg-none d-xl-none d-xxl-none" href="#"><img style={{width: '126px'}} src='/LogoSerChico.png'></img></a>
+  {
+    isHome?  
+    <a className={`navbar-brand d-block d-sm-block d-md-block ${isScrolled ? ' ' : 'd-lg-none d-xl-none d-xxl-none'}`} href='#inicio'><img style={{width: '126px'}} src='/LogoSerChico.png'></img></a>
+    :
+    <Link className={`navbar-brand d-block d-sm-block d-md-block d-lg-block d-xl-block d-xxl-block`} to={"/"}><img style={{width: '126px'}} src='/LogoSerChico.png'></img></Link>
+}
+    
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav me-auto mb-2 mb-lg-0 mt-xs-5 fw-semibold">
-         <a className="nav-link active text-center" href="#productos">{t('header.productos')}</a>
+       {
+        isHome?
+        <>
+        <a className="nav-link active text-center" href="#productos">{t('header.productos')}</a>
         <a className="nav-link active text-center" href="#nosotros">{t('header.nosotros')}</a>
         <a className="nav-link active text-center" href="#procesos">{t('header.procesos')}</a>
         <a className="nav-link active text-center" href="#filosofia">{t('header.filosofia')}</a>
+        </>
+        :
+        ''
+       }
       </div>
       <span className="d-flex justify-content-center">
         <div className='me-2'>
@@ -67,10 +81,12 @@ function Header() {
             <option value="en-US">English</option>
           </select>
         </div>
-        <a className="btn btn-primary " href="#">{t('header.bolsatrabajo')}</a>
+        <Link className="btn btn-primary " to={"/bdt"}>{t('header.bolsatrabajo')}</Link>
+        {/* <a className="btn btn-primary " href="#">{t('header.bolsatrabajo')}</a> */}
       </span>
     </div>
   </div>
+
 </nav>
 </>
   )

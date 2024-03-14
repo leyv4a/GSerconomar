@@ -1,6 +1,8 @@
 import React from 'react'
 import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import { useTranslation } from 'react-i18next';
+import {Link} from 'react-router-dom';
+import Aviso from './Aviso';
 
 function Main() {
   const { t } = useTranslation();
@@ -45,7 +47,7 @@ function Main() {
       ];
   return (
    <>
-         <div className="container pt-5" style={{overflow: 'hidden'}}>
+         <div id='inicio' className="container pt-5" style={{overflow: 'hidden'}}>
         <div className="row" style={{overflow: 'hidden'}}>
           <div className="d-none d-sm-none d-lg-flex d-md-none d-xl-flex col-6  justify-content-center align-items-center " style={{height: '60vh'}}>
               <img src="/LogoSerChico.png" alt="Serconomar" style={{width: '100%'}}/>
@@ -65,15 +67,7 @@ function Main() {
               <input type="email" className="form-control"  placeholder="Correo"/>
               <label >{t('mainForm.correo')}</label>
             </div>
-            {/* Campo numero de telefono */}
-            {/* <div className="input-group mb-3"> */}
-            {/* <select className="form-select" aria-label="Select country" style={{maxHeight: '3.6rem' , maxWidth: '4rem'}}> 
-             {countries.map((country, key) => {
-              return (
-                <option key={key} value={country.code}>{country.flag}</option>
-              )
-             })}
-            </select> */}
+            
             <div className="form-floating mb-3">
               <input type="tel" className="form-control" placeholder="Telefono"/>
               <label >{t('mainForm.telefono')}</label>
@@ -94,9 +88,8 @@ function Main() {
             
             {/* Aviso  */}
             <div className="mb-3">
-            <p><small>{t('mainForm.aviso')} <a href='#hola'>{t('mainForm.politicas')}</a> </small></p>
+            <p><small>{t('mainForm.aviso')} <Link to={'/priv'}>{t('mainForm.politicas')}</Link> </small></p>
             </div>
-            
             </div>
           </div>
         </div>

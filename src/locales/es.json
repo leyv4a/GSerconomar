@@ -12,8 +12,45 @@
     "telefono": "Telefono",
     "mensaje": "Mensaje",
     "enviar": "Enviar",
-    "aviso": "Al hacer click al boton 'Enviar', estas aceptando las ",
+    "aviso": "Al usar esta pagina, estas aceptando las ",
     "politicas": "Política de Privacidad y Términos de Servicio"
+  },
+  "terminos":{
+    "titulo": "Términos de Servicio:",
+    "bienvenida": "Bienvenido a Serconomar. Al acceder y utilizar nuestro sitio web, aceptas cumplir y estar sujeto a los siguientes términos y condiciones de uso:",
+    "texto1titulo": "Propiedad Intelectual: ",
+    "texto1texto": "Todo el contenido presente en este sitio web, incluyendo pero no limitado a textos, imágenes, gráficos, logotipos, videos y software, está protegido por leyes de propiedad intelectual y es propiedad de Serconomar o de sus licenciantes.",
+    "texto2titulo": "Uso Permitido: ",
+    "texto2texto": "Puedes acceder y utilizar nuestro sitio web con fines informativos y de compra de nuestros productos. No puedes modificar, copiar, distribuir, transmitir, mostrar, realizar, reproducir, publicar, licenciar, crear trabajos derivados, transferir o vender ninguna información, software, productos o servicios obtenidos de este sitio web.",
+    "texto3titulo": "Información del Usuario: ",
+    "texto3texto": "Al utilizar nuestro formulario de contacto u otros medios de comunicación, aceptas proporcionar información precisa y actualizada. Nos reservamos el derecho de utilizar esta información de acuerdo con nuestra política de privacidad.",
+    "texto4titulo": "Limitación de Responsabilidad: ",
+    "texto4texto": "Serconomar no se hace responsable de ningún daño directo, indirecto, incidental, especial, consecuente o punitivo que pueda surgir del uso o la imposibilidad de utilizar este sitio web.",
+    "texto5titulo": "Modificaciones: ",
+    "texto5texto": "Nos reservamos el derecho de modificar estos términos de servicio en cualquier momento y sin previo aviso. Se te notificará cualquier cambio mediante la publicación de la versión actualizada de los términos de servicio en nuestro sitio web.",
+    "texto6titulo": "Ley Aplicable: ",
+    "texto6texto": "Estos términos de servicio se rigen por las leyes del país en el que está registrada Serconomar y cualquier disputa relacionada con estos términos estará sujeta a la jurisdicción exclusiva de los tribunales de ese país.",
+    "footer":"Al utilizar este sitio web, aceptas cumplir con estos términos de servicio. Si no estás de acuerdo con alguno de estos términos, por favor, no utilices nuestro sitio web."
+  },
+  "privacidad":{
+    "titulo": "Aviso de Privacidad:",
+    "subtitulo": "En Serconomar, estamos comprometidos con la protección de tu privacidad. Este aviso de privacidad describe cómo recopilamos, utilizamos y protegemos la información personal que nos proporcionas a través de nuestro sitio web:",
+    "texto1titulo": "Información Recopilada: ",
+    "texto1texto": "Podemos recopilar información personal, como tu nombre, dirección de correo electrónico, número de teléfono y cualquier otra información que nos proporciones voluntariamente a través de nuestro formulario de contacto u otros medios de comunicación.",
+    "texto2titulo": "Uso de la Información: ",
+    "texto2texto": "Utilizamos la información personal recopilada para responder a tus consultas, proporcionarte información sobre nuestros productos y servicios, procesar tus pedidos y mejorar la experiencia general del usuario en nuestro sitio web.",
+    "texto3titulo":"Protección de la Información: ",
+    "texto3texto":"Implementamos medidas de seguridad técnicas, administrativas y físicas para proteger la información personal que recopilamos contra el acceso no autorizado, la divulgación, la alteración o la destrucción.",
+    "texto4titulo":"Divulgación de la Información: ",
+    "texto4texto":"No vendemos, intercambiamos ni transferimos de ninguna manera tu información personal a terceros sin tu consentimiento, excepto cuando sea necesario para cumplir con las leyes aplicables o responder a procesos legales.",
+    "texto5titulo":"Derechos del Usuario: ",
+    "texto5texto":"Tienes derecho a acceder, corregir o eliminar tu información personal en cualquier momento. Para ejercer estos derechos o si tienes alguna pregunta sobre nuestra política de privacidad, por favor contáctanos a través de los medios indicados en nuestro sitio web.",
+    "texto6titulo":"Consentimiento: ",
+    "texto6texto":"Al proporcionarnos tu información personal, aceptas los términos y condiciones de esta política de privacidad.",
+    "footer1":"Este aviso de privacidad se aplica únicamente a la información recopilada a través de nuestro sitio web y no se aplica a la información recopilada fuera de línea o a través de otros sitios web que puedan estar vinculados desde nuestro sitio.",
+    "footer2":"Si realizamos cambios importantes en nuestra política de privacidad, actualizaremos la fecha de revisión al final de este documento y te notificaremos de manera destacada en nuestro sitio web.",
+    "fecha":"Fecha de ultima revision : ",
+    "fechafecha":"14/03/2024"
   },
   "mexicana": {
     "header": "PRODUCTO 100% MEXICANO",
@@ -82,7 +119,7 @@
     "texto3": "En Serconomar contamos con una plantilla de 250 empleados, siendo el capital humano el recurso más importante para nuestra empresa."
   },
   "procesos":{
-    "conocenos": "Conocenos",
+    "conocenos": "Conócenos",
     "titulo": "Nuestros procesos",
     "texto": "El proceso inicia una vez que nuestras embarcaciones emprenden su viaje para la captura de materia prima. Al arribar la embarcación con carga al muelle se procede con la descarga por medio de una bomba de vacío, cuya función es succionar la materia prima desde las bodegas de la embarcación para ser trasladado a planta. Posteriormente la materia prima ingresa a nuestras pilas de acero inoxidable con capacidad de 160 toneladas."
   },

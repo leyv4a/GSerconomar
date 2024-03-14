@@ -11,7 +11,7 @@ export default function Footer() {
     const { t } = useTranslation();
     const [open, setOpen] = useState(false);
   return (
-    <section className='py-5 mt-5 ' style={{width: '100vw',fontFamily: 'Cosmos', backgroundColor: '#1C3D4A'}}>
+    <section className='py-5 ' style={{width: '100vw',fontFamily: 'Cosmos', backgroundColor: '#1C3D4A'}}>
         <div className="container" style={{height: '100%'}}>
             <div className="row text-center" style={{height: '100%'}}>
                 <div style={{height: '100%'}} className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 py-2 d-flex align-items-center justify-content-center" ><img src="/maritima/LogoMI.png" alt="Maritima Intercontinental" style={{width: '50%'}}/></div>
