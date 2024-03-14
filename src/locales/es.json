@@ -156,5 +156,11 @@
  "desarrollo": {
   "copy": "Desarrollado por ",
   "pagina" : "Geverel Software"
+ },
+ "notfound": {
+  "titulo": "Ooops! No se encontró nada. :( "
+ },
+ "mantenimiento": {
+  "titulo": "¡Proximamente!. :) "
  }
 }

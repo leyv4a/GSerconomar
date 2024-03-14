@@ -21,8 +21,8 @@ function Producto() {
 
   return (
     <>
-    <section id='productos' className='pt-5 container' style={{width: '100vw', height: '110vh'}}>
-     <div className=" d-flex flex-column align-items-center gap-4" style={{width: '100%', height: '30%'}}>
+    <section id='productos' className='pt-5 container' style={{width: '100vw', height: '140vh'}}>
+     <div className=" d-flex flex-column align-items-center gap-4" style={{width: '100%', height: '20%'}}>
       <h2 className='fs-1'><span className='border-bottom border-primary-subtle border-4 ' style={{fontFamily: 'Cosmos'}}>{t('productos.presentacion')}&nbsp; &nbsp;</span></h2>
       <div className="d-flex justify-content-evenly align-items-center " style={{width:' 80%'}}>
       <div>
