@@ -15,7 +15,7 @@ export default function Filosofia() {
         <p className='fs-1 fw-bolder text-primary-emphasis text-center'><GiArcheryTarget/></p>
             <div className="card-body ">
               <h5 className="text-center text-dark">{t('filosofia.mision')}</h5>
-              <p className="card-text text-dark">{t('filosofia.misiontexto')}</p>
+              <p className="card-text text-dark" style={{textAlign: 'justify'}}>{t('filosofia.misiontexto')}</p>
             </div>
           </div>
          </div> 
@@ -24,7 +24,7 @@ export default function Filosofia() {
         <p className='fs-1 fw-bolder text-primary-emphasis text-center'>  <FaLightbulb/></p>
             <div className="card-body ">
               <h5 className="text-center text-dark">{t('filosofia.vision')}</h5>
-              <p className="card-text text-dark">{t('filosofia.visiontexto')}</p>
+              <p className="card-text text-dark" style={{textAlign: 'justify'}}>{t('filosofia.visiontexto')}</p>
             </div>
           </div>
          </div> 
@@ -48,7 +48,7 @@ export default function Filosofia() {
         <p className='fs-1 fw-bolder text-primary-emphasis text-center'>  <FaMedal/></p>
             <div className="card-body ">
               <h5 className="text-center text-dark">{t('filosofia.calidad')}</h5>
-              <p className="card-text text-dark">{t('filosofia.calidadtexto')}</p>
+              <p className="card-text text-dark" style={{textAlign: 'justify'}}>{t('filosofia.calidadtexto')}</p>
             </div>
           </div>
          </div> 

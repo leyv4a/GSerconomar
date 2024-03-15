@@ -13,9 +13,18 @@
     "correo": "E-Mail",
     "telefono": "Phone Number",
     "mensaje": "Message",
-    "enviar": "Go",
+    "enviar": "Contact us",
     "aviso": "By using this page you are accepting the",
-    "politicas": "Terms of Services and Privacy Policy"
+    "politicas": "Terms of Services and Privacy Policy",
+    "requerido": "¡This field is required!",
+    "nombremin": "Name lenght must be at least 2 characters.",
+    "correoinvalido": "Invalid mail.",
+    "telefonoinvalido": "Invalid phone number.",
+    "telefonomin": "Phone number must be at least 10 digits.",
+    "telefonomax": "Phone number must be max 10 digits.",
+    "mensajemin": "Message must be at least 10 characters.",
+    "gracias": "¡Thank you!",
+    "graciascontacto" :"We'll be in touch."
   },
     "terminos": {
       "titulo": "Terms of Service:",
@@ -61,7 +70,7 @@
   "productos":{
     "presentacion" : "PRODUCTS",
     "harina" : "Fish Meal",
-    "harinainfo": "It is a concentrated powder product resulting from the cooking, pressing, steam drying, and grinding of whole sardines, free from microorganisms and harmful substances for animal and aquaculture health. It has a high percentage of digestible protein and fat, rich in Omega-3 fatty acids, DHA, and EPA, essential for the rapid growth of fish and animals.",
+    "harinainfo": "It is a concentrated powder product resulting from the cooking, pressing, steam drying, and grinding of whole Sardines, free from microorganisms and harmful substances to animal and aquaculture health. It has a high percentage of high biological value proteins due to its essential amino acids, which are indispensable for the rapid growth of fish and animals.",
     "harinacalidad":"Quality Factors",
     "harinavariables":"Variable parameters depending on the species",
     "harinaorgano-lep":"Organoleptic",
@@ -79,7 +88,7 @@
     "harinahumedadmayor":"Maximum",
     "harinahumedadporcentaje":"10%",
     "aceite": "Fish Oil",
-    "aceiteinfo": "It is an unrefined liquid obtained from the separation of fish fat through a cooking and centrifugation process. It is a product of high nutritional value due to its Omega-3 fatty acid content, and its lipid content is close to 100%. These essential fatty acids are beneficial for fish nutrition and human consumption. It has low moisture content, providing greater oxidative stability.",
+    "aceiteinfo": "It is an unrefined liquid, obtained from the separation of fish fat through a cooking and centrifugation process. It is a high-nutritional value product due to its content of Omega-3 and Omega-6 fatty acids, Omega-9. These fatty acids are essential for fish feeding and beneficial for human consumption. It has a low moisture content, which gives it greater oxidative stability.",
     "aceiteolortitle":"Smell:",
     "aceiteolortext":"Distinctive smell",
     "aceitecolortitle":"Color:",

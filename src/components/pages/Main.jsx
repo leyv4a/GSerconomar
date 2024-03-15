@@ -3,6 +3,7 @@ import {useTypewriter, Cursor} from 'react-simple-typewriter'
 import { useTranslation } from 'react-i18next';
 import {Link} from 'react-router-dom';
 import Aviso from './Aviso';
+import Contacto from '../forms/Contacto';
 
 function Main() {
   const { t } = useTranslation();
@@ -53,44 +54,7 @@ function Main() {
               <img src="/LogoSerChico.png" alt="Serconomar" style={{width: '100%'}}/>
           </div>
           <div className=" col-sm-12 col-12 col-md-12 col-lg-6 col-xl-6 text-center py-5 px-5" >
-            <div className='bg-light card p-3 shadow'>
-              <h1 className='mb-3 fs-2'>{cabeceroForm} <Cursor/></h1>
-
-            {/* Campo nombre */}
-            <div className="form-floating mb-3">
-              <input type="text" className="form-control"  placeholder="Nombre"/>
-              <label >{t('mainForm.nombre')}</label>
-            </div>
-
-            {/* Campo correo */}
-            <div className="form-floating mb-3">
-              <input type="email" className="form-control"  placeholder="Correo"/>
-              <label >{t('mainForm.correo')}</label>
-            </div>
-            
-            <div className="form-floating mb-3">
-              <input type="tel" className="form-control" placeholder="Telefono"/>
-              <label >{t('mainForm.telefono')}</label>
-            </div>
-
-          {/* </div> */}
-
-          <div className="form-floating mb-3">
-            <textarea rows={5} style={{resize: 'none'}} className="form-control" placeholder="¡Deja tu mensaje!" ></textarea>
-            <label >{t('mainForm.mensaje')}</label>
-          </div>
-
-
-          {/* Boton */}
-          <div className="mb-3 d-grid gap-2">
-            <button className='btn btn-primary btn-lg'> {t('mainForm.enviar')} </button>
-          </div>
-            
-            {/* Aviso  */}
-            <div className="mb-3">
-            <p><small>{t('mainForm.aviso')} <Link to={'/priv'}>{t('mainForm.politicas')}</Link> </small></p>
-            </div>
-            </div>
+            <Contacto/>
           </div>
         </div>
       </div>

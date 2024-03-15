@@ -19,9 +19,9 @@ export default function Nosotros() {
             <p className="fs-3 text-dark my-3 fw-bolder " style={{fontFamily: 'Cosmos'}}>{t('nosotros.subtitulo')}</p>
             <div className="card over" >
               <div className="card-body overflow-hidden bg-light fs-5" style={{fontFamily: 'Cosmos'}} >
-                <p className="text-dark"> {t('nosotros.texto1')}<br /> <br />
-                <span className=' d-sm-none d-none d-md-none d-lg-block d-xl-block d-xxl-block'>{t('nosotros.texto2')}</span></p>
-                  <p className="d-sm-none d-none d-md-none d-lg-none d-xl-block d-xxl-block">
+                <p className="text-dark" style={{textAlign: 'justify'}}> {t('nosotros.texto1')}<br /> <br />
+                <span className=' d-sm-none d-none d-md-none d-lg-block d-xl-block d-xxl-block' style={{textAlign: 'justify'}}>{t('nosotros.texto2')}</span></p>
+                  <p className="d-sm-none d-none d-md-none d-lg-none d-xl-block d-xxl-block" style={{textAlign: 'justify'}}> 
                   {t('nosotros.texto3')}
                 </p>
               </div>

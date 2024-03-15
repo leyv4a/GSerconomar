@@ -8,6 +8,7 @@ import Home from './components/pages/Home.jsx';
 import { BrowserRouter as Router, Route, Routes, Navigate  } from 'react-router-dom';
 import NotFound from './components/pages/NotFound.jsx';
 import Mantenimiento from './components/pages/Mantenimiento.jsx';
+import Contacto from './components/forms/Contacto.jsx';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/bdt" element={<Mantenimiento/>} />
           <Route path="*" element={<Navigate to="/nfp" replace />} />
         <Route path="/nfp" element={<NotFound />} />
+        <Route path="/contacto" element={<Contacto/>}/>
           </Routes> 
       </Router>
   </I18nextProvider>

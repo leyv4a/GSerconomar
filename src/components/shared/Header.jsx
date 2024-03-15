@@ -16,7 +16,7 @@ function Header( {isHome, backg} ) {
   const [isScrolled, setIsScrolled] = useState(false);
 
   const handleResize = () => {
-    const mobileWidth = 768;
+    const mobileWidth = 990;
     setIsMobile(window.innerWidth < mobileWidth);
   };
 

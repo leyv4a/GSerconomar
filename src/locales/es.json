@@ -5,17 +5,27 @@
     "nosotros": "Nosotros",
     "nosotros2": "Nosotros",
     "procesos": "Procesos",
-    "filosofia": "Filosofia",
+    "filosofia": "Filosofía",
     "bolsatrabajo": "Bolsa de Trabajo"
   },
   "mainForm":{
     "nombre": "Nombre",
     "correo": "Correo",
-    "telefono": "Telefono",
+    "telefono": "Teléfono",
     "mensaje": "Mensaje",
     "enviar": "Enviar",
-    "aviso": "Al usar esta pagina, estas aceptando las ",
-    "politicas": "Política de Privacidad y Términos de Servicio"
+    "aviso": "Al usar esta página, estás aceptando las ",
+    "politicas": "Política de Privacidad y Términos de Servicio",
+    "requerido": "¡Este campo es requerido!",
+    "nombremin": "El nombre debe tener al menos 2 caracteres.",
+    "correoinvalido": "Correo electrónico invalido.",
+    "telefonoinvalido": "Teléfono invalido.",
+    "telefonomin": "El teléfono debe tener al menos 10 dígitos.",
+    "telefonomax": "El teléfono debe tener máximo 10 dígitos.",
+    "mensajemin": "El mensaje debe tener al menos 10 caracteres.",
+    "gracias": "¡Gracias!",
+    "graciascontacto" :"Nos pondremos en contacto."
+
   },
   "terminos":{
     "titulo": "Términos de Servicio:",
@@ -61,7 +71,7 @@
   "productos":{
     "presentacion" : "PRODUCTOS",
     "harina" : "Harina de pescado",
-    "harinainfo": "Es un producto en polvo concentrado resultante del cocimiento, prensado, secado a vapor y molienda de Sardina entera, libre de microorganismos y sustancias nocivas para la salud animal y acuícola. Cuenta con un alto porcentaje de proteína y grasa digerible, rica en ácidos grasos Omega-3, DHA y EPA, indispensables para el rápido crecimiento de los peces y animales.",
+    "harinainfo": "Es un producto en polvo concentrado resultante del cocimiento, prensado, secado a vapor y molienda de Sardina entera, libre de microorganismos y sustancias nocivas para la salud animal y acuícola. Cuenta con un alto porcentaje de proteínas de alto valor biologico debido a sus aminoácidos esenciales, indispensables para el rápido crecimiento de los peces y animales.",
     "harinacalidad":"Factores de Calidad",
     "harinavariables":"Parámetros variables en funcion de la especie",
     "harinaorgano-lep":"Organo-lépticas",
@@ -79,7 +89,7 @@
     "harinahumedadmayor":"Máximo",
     "harinahumedadporcentaje":"10%",
     "aceite": "Aceite de pescado",
-    "aceiteinfo": "Es un líquido sin refinar, obtenido de la separación de la grasa del pescado mediante un proceso de cocción y centrifucación. Es un producto de alto valor nutricional por su contenido de ácidos grasos Omega-3 y su contenido de lípidos es cercano al 100%, estos ácidos grasos son de tipo esencial para la alimentación de peces y beneficiosas para la alimentación humana, cuenta con un bajo contenido de humedad, lo que le otorga mayor estabilidad oxidativa.",
+    "aceiteinfo": "Es un líquido sin refinar, obtenido de la separación de la grasa del pescado mediante un proceso de cocción y centrifucación. Es un producto de alto valor nutricional por su contenido de ácidos grasos Omega-3 y Omega-6, Omega-9, estos ácidos grasos son de tipo esencial para la alimentación de peces y beneficiosas para la alimentación humana, cuenta con un bajo contenido de humedad, lo que le otorga mayor estabilidad oxidativa.",
     "aceiteolortitle":"Olor:",
     "aceiteolortext":"Característico",
     "aceitecolortitle":"Color:",
@@ -143,7 +153,7 @@
  "footer":{
   "contacto": "En caso de sugerencias o comentarios favor de enviarlas a:",
   "email": "sugerencias@serconomar.com",
-  "direccion": "Direccion : Lote #3 Manzana B S/N Parque Industrial Pesquero Rodolfo Sánchez Taboada.",
+  "direccion": "Dirección : Lote #3 Manzana B S/N Parque Industrial Pesquero Rodolfo Sánchez Taboada.",
   "redessociales": "REDES SOCIALES",
   "horario": "Ver horario",
     "lunes": "Lunes",
