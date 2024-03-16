@@ -36,6 +36,7 @@ export default function Home() {
       <Main/>
     </div>
   </main>
+  <section className='d-flex flex-column gap-5'>
       <Certificaciones/>
       <Producto/>
       <Nosotros/>
@@ -44,6 +45,7 @@ export default function Home() {
       <Mexicana/> 
       <Mapa/>
       <Footer/>
+  </section>
       </>
   )
 }
