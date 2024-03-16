@@ -6,7 +6,7 @@ export default function Aceite() {
   return (
     <div>
     <h4 className='fs-2 text-primary-emphasis fw-bolder lh-1' style={{fontFamily: 'Cosmos'}}>{t('productos.aceite')}</h4>
-    <p className='fs-4 lh-1' style={{fontFamily: 'Cosmos'}}>{t('productos.aceiteinfo')}</p>
+    <p className='fs-4 lh-1' style={{fontFamily: 'Cosmos', textAlign:'justify'}}>{t('productos.aceiteinfo')}</p>
     {/* <button className='btn btn-primary btn-lg'>{t('productos.fichatecnica')}</button> */}
     <div className='d-flex flex-column gap-4 mt-2' style={{fontFamily: 'Cosmos'}}>
       <div className='lh-1'>
@@ -32,7 +32,7 @@ export default function Aceite() {
           <span className='fs-1 text-primary-emphasis fw-bolder '>{t('productos.aceiteestearinasporcentaje')}</span></p>
         </div>
         <div>
-        <p className='text-primary-emphasis fs-4 lh-1' >{t('productos.aceiteperoxidotitle')}<br/>
+        <p className='d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block text-primary-emphasis fs-4 lh-1' >{t('productos.aceiteperoxidotitle')}<br/>
           <span className='text-dark fs-5 lh-1'>{t('productos.aceitemayor')}</span><br/>
           <span className='fs-1 text-primary-emphasis fw-bolder lh-1'>{t('productos.aceiteperoxidoporcentaje')}</span>
           <sub className='text-dark lh-1'><small className='lh-1'>{t('productos.aceiteperoxidosub')}</small></sub></p>

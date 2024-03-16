@@ -6,7 +6,7 @@ export default function Harina() {
   return (
     <div>
     <h4 className='fs-2 text-primary-emphasis fw-bolder lh-1' style={{fontFamily: 'Cosmos'}}>{t('productos.harina')}</h4>
-    <p className='fs-4 lh-1' style={{fontFamily: 'Cosmos'}}>{t('productos.harinainfo')}</p>
+    <p className='fs-4 lh-1' style={{fontFamily: 'Cosmos', textAlign:'justify'}}>{t('productos.harinainfo')}</p>
     {/* <button className='btn btn-primary btn-lg'>{t('productos.fichatecnica')}</button> */}
     <div className='d-flex flex-column gap-4 mt-2' style={{fontFamily: 'Cosmos'}}>
       <div className='lh-1'>
