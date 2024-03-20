@@ -7,6 +7,7 @@ import Privacidad from './components/pages/Aviso.jsx'
 import Home from './components/pages/Home.jsx';
 import { BrowserRouter as Router, Route, Routes, Navigate  } from 'react-router-dom';
 import NotFound from './components/pages/NotFound.jsx';
+import BolsaTrabajo from './components/pages/BolsaTrabajo.jsx';
 import Mantenimiento from './components/pages/Mantenimiento.jsx';
 import Contacto from './components/forms/Contacto.jsx';
 
@@ -20,10 +21,9 @@ function App() {
     <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route path="/priv" element={<Privacidad/>} />
-          <Route path="/bdt" element={<Mantenimiento/>} />
+          <Route path="/bdt" element={<BolsaTrabajo/>} />
           <Route path="*" element={<Navigate to="/nfp" replace />} />
-        <Route path="/nfp" element={<NotFound />} />
-        <Route path="/contacto" element={<Contacto/>}/>
+          <Route path="/nfp" element={<NotFound />} />
           </Routes> 
       </Router>
   </I18nextProvider>

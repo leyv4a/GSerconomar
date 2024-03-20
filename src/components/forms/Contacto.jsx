@@ -63,7 +63,7 @@ export default function Contacto() {
     
 
   return (
-    <div className='bg-light card p-3 shadow'>
+    <div className='bg-light card p-3 shadow' style={{height:'80vh'}}>
     <h1 className='mb-3 fs-2'>{cabeceroForm} <Cursor/></h1>
 
     <Formik
@@ -81,7 +81,7 @@ export default function Contacto() {
   {formik => (
     <Form>
       {/* Campo nombre */}
-      <div className="form-floating mb-3">
+      <div className="form-floating mb-3 ">
         <Field type="text" name="nombre" className="form-control" placeholder="Nombre" />
         <label htmlFor="nombre">{t('mainForm.nombre')}</label>
         <ErrorMessage name="nombre" component="div" className="text-danger text-start" />

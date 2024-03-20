@@ -53,7 +53,7 @@ function Main() {
           <div className="d-none d-sm-none d-lg-flex d-md-none d-xl-flex col-6  justify-content-center align-items-center " style={{height: '60vh'}}>
               <img src="/LogoSerChico.png" alt="Serconomar" style={{width: '100%'}}/>
           </div>
-          <div className=" col-sm-12 col-12 col-md-12 col-lg-6 col-xl-6 text-center py-5 px-5" >
+          <div className="col-sm-12 col-12 col-md-12 col-lg-6 col-xl-6 text-center py-5 px-5" >
             <Contacto/>
           </div>
         </div>

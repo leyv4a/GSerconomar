@@ -69,7 +69,7 @@ export default function Footer() {
             </div>
         <p className='text-end'><a className='text-info-emphasis' href='/'>Empleado</a></p>
         <hr className='text-white'/>
-        <h2 className='fs-5 text-light text-center  lh-1' style={{color : '#7e02b7', fontFamily: 'monospace'}}>{t('desarrollo.copy')}<a className='text-light' target='_blank' href='https://www.geverel.com'>{t('desarrollo.pagina')}</a></h2>
+        <h2 className='fs-5 text-light text-center  lh-1' style={{color : '#7e02b7', fontFamily: 'monospace'}}>{t('desarrollo.copy')}<a className='text-light' target='_blank' href={"https://www.geverel.com"}>{t('desarrollo.pagina')}</a></h2>
         </div>
     </section>
   )
