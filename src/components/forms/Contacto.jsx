@@ -6,13 +6,15 @@ import * as Yup from 'yup';
 import ReCAPTCHA from 'react-google-recaptcha';
 import {Formik, Form, Field, ErrorMessage} from 'formik';
 import Swal from 'sweetalert2';
+import axios from 'axios';
 
 export default function Contacto() {
     const { t } = useTranslation();
     const recaptchaRef = useRef();
 
     const [cabeceroForm] = useTypewriter({
-        words:['¡Mantente en contacto!', '¡Keep in touch!','¡On reste en contact!' ,'¡Mantenha-se em contato!'],
+        // words:['¡Mantente en contacto!', '¡Keep in touch!','¡On reste en contact!' ,'¡Mantenha-se em contato!'],
+        words:['¡Mantente en contacto!'],
         loop: {},
         typeSpeed: 120,
         deleteSpeed: 50
@@ -35,21 +37,33 @@ export default function Contacto() {
           .required(t('mainForm.requerido')),
       });
 
+      const sendForm = async (values) => {
+       await axios.post('https://www.app.serconomar.com/index.php',{
+          nombre: values.nombre,
+          correo: values.correo,
+          telefono: values.telefono,
+          mensaje: values.mensaje
+        })
+        .then(Swal.fire({
+          title: t('mainForm.gracias'),
+          text: t('mainForm.graciascontacto'),
+          imageUrl: "/LogoSerChico.png",
+          imageWidth: 200,
+          imageHeight: 100,
+          imageAlt: "Serconomar",
+          showCloseButton : true,
+          confirmButtonText: "Ok",
+          confirmButtonColor: '#1C3D4A',
+          showCancelButton: false,
+       
+        }));
+      }
+
     const handleSubmit = async (values, { resetForm }) => {
         const token = await recaptchaRef.current.executeAsync();
-        Swal.fire({
-            title: t('mainForm.gracias'),
-            text: t('mainForm.graciascontacto'),
-            imageUrl: "/LogoSerChico.png",
-            imageWidth: 200,
-            imageHeight: 100,
-            imageAlt: "Serconomar",
-            showCloseButton : true,
-            confirmButtonText: "Ok",
-            confirmButtonColor: '#1C3D4A',
-            showCancelButton: false,
-         
-          });
+        sendForm(values)
+
+       
     
         // clg de prueba
         // console.log('Token de ReCAPTCHA:', token);
