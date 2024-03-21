@@ -48,7 +48,7 @@ function Header( {isHome, backg} ) {
 
   return (
    <>
-  <nav className={`navbar navbar-expand-lg fixed-top  ${isMobile ?  backg : ''} ${isScrolled ?  backg +' shadow' : ''}`} style={{height: '10vh'}}>
+  <nav className={`navbar navbar-expand-lg fixed-top  ${isMobile ?  backg : ''} ${isScrolled ?  backg +' shadow' : ''}`} >
   <div className="container py-1">
   {
     isHome?  
