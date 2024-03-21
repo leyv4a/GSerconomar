@@ -32,7 +32,7 @@ export default function BolsaTrabajo() {
         // Simulación de carga de datos (ejemplo)
         setTimeout(() => {
           setIsLoading(false);
-        }, 2000);
+        }, 2500);
       }, []);
 
     const estilos ={
@@ -46,15 +46,22 @@ export default function BolsaTrabajo() {
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
+        },
+        loader:{
+          position: 'absolute',
+          top: '500000%'
+
         }
       }
+      
   return (
     <>
-        <Header  backg={'bg-light'} isHome={false}/>
-    {loading ? <Loader />
+       {loading ? <Loader />
     :
-    
-    <section >
+    ""
+    }
+    <Header  backg={'bg-light'} isHome={false}/>
+    <section style={loading? estilos.loader : {}} >
     <main style={estilos.main}>
     <div style={estilos.backgroundMain}>
         <div className="container pt-5 ">
@@ -87,8 +94,9 @@ export default function BolsaTrabajo() {
     </main>
     <Footer/>
     </section>
-    }
+   
    
     </>
   )
 }
+
